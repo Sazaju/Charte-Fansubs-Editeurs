@@ -45,6 +45,7 @@ require_once('baseImport.php');
 					$url->setQueryVar('page', $page->getId());
 					echo '<a '.($displayedPage == $page ? 'class="selected"' : '').' href="'.$url.'">'.$page->getMenuTitle().'</a>';
 				}
+				echo Format::toHtmlEmail('sazaju@gmail.com', "Contact");
 			?>
 		</nav>
 		<article>
