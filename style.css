@@ -1,0 +1,98 @@
+/*********************************\
+              GLOBAL
+\*********************************/
+
+body {
+}
+
+div {
+	margin: 0;
+	padding: 0;
+}
+
+/*********************************\
+              HEADER
+\*********************************/
+
+header {
+	text-align: center;
+}
+
+/*********************************\
+              MENU
+\*********************************/
+
+nav {
+	width: 15%;
+	position: fixed;
+	text-align: center;
+}
+
+nav a {
+	display: block;
+}
+
+nav a.selected {
+	background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,0,1) 0%, rgba(255,255,0,0) 75%, rgba(255,255,0,0) 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,0,1)), color-stop(75%,rgba(255,255,0,0)), color-stop(100%,rgba(255,255,0,0))); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,0,1) 0%,rgba(255,255,0,0) 75%,rgba(255,255,0,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover,  rgba(255,255,0,1) 0%,rgba(255,255,0,0) 75%,rgba(255,255,0,0) 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover,  rgba(255,255,0,1) 0%,rgba(255,255,0,0) 75%,rgba(255,255,0,0) 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center,  rgba(255,255,0,1) 0%,rgba(255,255,0,0) 75%,rgba(255,255,0,0) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffff00', endColorstr='#00ffff00',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+/*********************************\
+              CONTENT
+\*********************************/
+
+article {
+	width: 84%;
+	float: right;
+	margin-bottom: 2em;
+}
+
+article div#lastUpdateTime {
+	float: right;
+	font-size: 75%;
+	color: gray;
+}
+
+article div#convention-fansubs, article div#convention-editeurs {
+	width: 49%;
+}
+
+article div#convention-fansubs {
+	float: left;
+}
+
+article div#convention-editeurs {
+	float: right;
+}
+
+/*********************************\
+            COPYRIGHT
+\*********************************/
+
+footer {
+	position: fixed;
+	bottom: 0;
+	background-color: white;
+	border-top: 1px solid black;
+	width: 100%;
+	font-size: 75%;
+	height: 2em;
+}
+
+footer p {
+	position: absolute;
+	bottom: 0;
+	display: block;
+	width: 100%;
+	margin: 0;
+	text-align: center;
+}
+
+footer img {
+	vertical-align: middle;
+}
