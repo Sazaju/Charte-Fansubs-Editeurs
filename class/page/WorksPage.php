@@ -18,7 +18,7 @@ class WorksPage extends Page {
 			new Work(
 				"Différenciation des pratiques de réception des séries télévisées et mutations du secteur de la diffusion audiovisuelle : analyse critique du scénario de la mort annoncée de la télévision",
 				"Guillaume Blanc",
-				"28/03/2012",
+				"28 Mars 2012",
 				"http://dumas.ccsd.cnrs.fr/dumas-00683226/"
 			),
 		);
