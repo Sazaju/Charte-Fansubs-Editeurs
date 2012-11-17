@@ -19,7 +19,8 @@ class WorksPage extends Page {
 				"Différenciation des pratiques de réception des séries télévisées et mutations du secteur de la diffusion audiovisuelle : analyse critique du scénario de la mort annoncée de la télévision",
 				"Guillaume Blanc",
 				"28 Mars 2012",
-				"http://dumas.ccsd.cnrs.fr/dumas-00683226/"
+				"http://dumas.ccsd.cnrs.fr/dumas-00683226/",
+				"fr"
 			),
 		);
 		$content .= "<ul>";
@@ -32,8 +33,9 @@ class WorksPage extends Page {
 }
 
 class Work {
-	public function __construct($title, $authors, $date, $url) {
-		$this->string = "<a href='$url'>\"$title\", <i>$authors</i>, $date</a>";
+	public function __construct($title, $authors, $date, $url, $lang) {
+		$lang = $lang == null ? "" : " ($lang)";
+		$this->string = "<a href='$url'>\"$title\"</a>, <i>$authors</i>, $date".$lang;
 	}
 	
 	public function __tostring() {
