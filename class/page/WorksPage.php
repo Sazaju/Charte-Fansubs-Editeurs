@@ -22,6 +22,13 @@ class WorksPage extends Page {
 				"http://dumas.ccsd.cnrs.fr/dumas-00683226/",
 				"fr"
 			),
+			new Work(
+				"Do Illegal Copies of Movies Reduce the Revenue of Legal Products? The case of TV animation in Japan",
+				"Tanaka Tatsuo",
+				"Janvier 2011",
+				"http://www.rieti.go.jp/en/publications/summary/11010021.html",
+				"jap"
+			),
 		);
 		$content .= "<ul>";
 		foreach($works as $work) {
